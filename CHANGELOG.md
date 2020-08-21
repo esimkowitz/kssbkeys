@@ -1,0 +1,4 @@
+### 0.0.1
+
+- Initial release
+- Adding two keybindings to assist in navigating the Explorer pane with a screen reader.
