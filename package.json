@@ -1,8 +1,21 @@
 {
-  "name": "kssbkeys",
+	"name": "kssbkeys",
 	"displayName": "KSSB Keys",
 	"description": "Improving the VSCode experience for users with screen readers.",
 	"version": "0.0.1",
+	"publisher": "esimkowitz",
+	"author": {
+		"email": "esimkowitz@wustl.edu",
+		"name": "Evan Simkowitz",
+		"url": "https://github.com/esimkowitz"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/esimkowitz/kssbkeys.git"
+	},
+	"bugs": {
+		"url": "https://github.com/esimkowitz/kssbkeys/issues"
+	},
 	"engines": {
 		"vscode": "^1.48.0"
 	},
@@ -11,33 +24,33 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:kssbkeys.explorerNewFolder"
+		"onCommand:kssbkeys.explorerNewFolder"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
-		"commands":[
+		"commands": [
 			{
 				"command": "kssbkeys.explorerNewFolder",
 				"title": "KSSB Keys: New Folder"
 			}
 		],
-        "keybindings": [
-            {
-                "mac": "cmd+n",
-                "win": "ctrl+n",
-                "linux": "ctrl+n",
-                "command": "explorer.newFile",
-                "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
-            },
-            {
-                "mac": "cmd+shift+n",
+		"keybindings": [
+			{
+				"mac": "cmd+n",
+				"win": "ctrl+n",
+				"linux": "ctrl+n",
+				"command": "explorer.newFile",
+				"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+			},
+			{
+				"mac": "cmd+shift+n",
 				"win": "ctrl+shift+n",
 				"linux": "ctrl+shift+n",
-                "command": "kssbkeys.explorerNewFolder",
-                "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
-            }
-        ]
-    },
+				"command": "kssbkeys.explorerNewFolder",
+				"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+			}
+		]
+	},
 	"scripts": {
 		"vscode:prepublish": "yarn run compile",
 		"compile": "tsc -p ./",
