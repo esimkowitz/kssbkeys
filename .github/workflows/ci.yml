@@ -1,8 +1,10 @@
 name: CI
 on:
   push:
+  pull-request:
     branches:
       - master
+      - releases/*
 jobs:
   build:
     strategy:
