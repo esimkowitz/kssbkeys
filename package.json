@@ -4,6 +4,7 @@
 	"description": "Improving the VSCode experience for users with screen readers.",
 	"version": "<insert here>",
 	"publisher": "esimkowitz",
+	"license": "MIT",
 	"author": {
 		"email": "esimkowitz@wustl.edu",
 		"name": "Evan Simkowitz",
