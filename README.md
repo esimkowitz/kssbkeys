@@ -15,5 +15,5 @@ Currently, this extension only provides two enhancements: a keyboard shortcut to
 - Initial release
 - Adding two keybindings to assist in navigating the Explorer pane with a screen reader.
 
-### 0.0.5
+### 0.0.6
 - Adding CI/CD workflow
