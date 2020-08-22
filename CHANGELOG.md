@@ -3,5 +3,5 @@
 - Initial release
 - Adding two keybindings to assist in navigating the Explorer pane with a screen reader.
 
-### 0.0.3
+### 0.0.5
 - Adding CI/CD workflow
