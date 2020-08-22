@@ -1,4 +1,4 @@
-name: Build and Publish
+name: CI/CD
 on:
   push:
     branches:
