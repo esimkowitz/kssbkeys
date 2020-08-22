@@ -1,4 +1,4 @@
-name: CI/CD
+name: CI
 on:
   push:
     branches:
@@ -24,8 +24,3 @@ jobs:
       uses: GabrielBB/xvfb-action@v1.2
       with:
         run: npm test
-    - name: Publish
-      if: success() && contains( github.ref, 'release') && matrix.os == 'ubuntu-latest'
-      run: npm run deploy
-      env:
-        VSCE_PAT: $

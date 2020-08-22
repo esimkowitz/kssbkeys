@@ -1,6 +1,6 @@
 # KSSB Keys
 
-![CI/CD](https://github.com/esimkowitz/kssbkeys/workflows/CI/CD/badge.svg)
+![CI/CD](https://github.com/esimkowitz/kssbkeys/workflows/CI/badge.svg)
 
 This extension has been developed to provide useful commands and keyboard shortcuts to VS Code users who use a screen reader like NVDA. It is very much a work in progress.
 
