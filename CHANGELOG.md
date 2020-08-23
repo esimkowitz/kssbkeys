@@ -11,6 +11,6 @@
 
 - Removing unnecessary files from the published extension
 
-### 0.0.9
+### 0.0.10
 
 - Adding new activation events to improve extension loading and handling of updates
