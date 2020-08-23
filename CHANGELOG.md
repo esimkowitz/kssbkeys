@@ -10,3 +10,7 @@
 ### 0.0.8
 
 - Removing unnecessary files from the published extension
+
+### 0.0.9
+
+- Adding new activation events to improve extension loading and handling of updates
