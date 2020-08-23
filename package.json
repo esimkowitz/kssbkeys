@@ -20,11 +20,16 @@
 	"engines": {
 		"vscode": "^1.48.0"
 	},
+	"extensionKind": [
+		"ui"
+	],
 	"categories": [
 		"Keymaps",
 		"Other"
 	],
 	"activationEvents": [
+		"onStartupFinished",
+		"onView:explorer",
 		"onCommand:kssbkeys.explorerNewFolder"
 	],
 	"main": "./out/extension.js",
@@ -59,7 +64,8 @@
 		"watch": "tsc -watch -p ./",
 		"pretest": "yarn run compile && yarn run lint",
 		"test": "node ./out/test/runTest.js",
-		"deploy": "vsce publish --yarn --pat $VSCE_PAT"
+		"deploy": "vsce publish --yarn --pat $VSCE_PAT",
+		"postinstall": "node ./node_modules/vscode/bin/install"
 	},
 	"devDependencies": {
 		"@types/glob": "^7.1.3",
