@@ -13,4 +13,4 @@
 
 ### 0.0.9
 
-- Supporting auto-reloading of extension after update, adding more activation events to optimize extension loading.
+- Adding new activation events to improve extension loading and handling of updates

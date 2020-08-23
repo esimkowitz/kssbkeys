@@ -1,12 +1,12 @@
 import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
-	let disposable = vscode.commands.registerCommand('kssbkeys.explorerNewFolder', () => {
+	const newFolder = vscode.commands.registerCommand('kssbkeys.explorerNewFolder', () => {
         vscode.window.showInformationMessage("Enter folder name.");
 		vscode.commands.executeCommand("explorer.newFolder");
 	});
 
-	context.subscriptions.push(disposable);
+	context.subscriptions.push(newFolder);
 }
 
 export function deactivate() {}
