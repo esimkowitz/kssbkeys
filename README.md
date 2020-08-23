@@ -1,6 +1,6 @@
 # KSSB Keys
 
-![Build](https://github.com/esimkowitz/kssbkeys/workflows/CI/badge.svg) [![Version](https://vsmarketplacebadge.apphb.com/version/esimkowitz.kssbkeys.svg)](https://marketplace.visualstudio.com/items?itemName=esimkowitz.kssbkeys)
+![Build](https://github.com/esimkowitz/kssbkeys/workflows/Build/badge.svg) [![Version](https://vsmarketplacebadge.apphb.com/version/esimkowitz.kssbkeys.svg)](https://marketplace.visualstudio.com/items?itemName=esimkowitz.kssbkeys)
 
 This extension has been developed to provide useful commands and keyboard shortcuts to VS Code users who use a screen reader like NVDA. It is very much a work in progress.
 
