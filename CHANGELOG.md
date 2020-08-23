@@ -10,3 +10,7 @@
 ### 0.0.8
 
 - Removing unnecessary files from the published extension
+
+### 0.0.9
+
+- Supporting auto-reloading of extension after update, adding more activation events to optimize extension loading.
