@@ -24,4 +24,4 @@ jobs:
         run: npm test
     - name: Package
       if: success() && contains( github.base_ref, 'releases') && matrix.os == 'ubuntu-latest'
-      run: vsce package --yarn
+      run: npm run package
