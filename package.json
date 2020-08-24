@@ -68,7 +68,8 @@
 		"watch": "tsc -watch -p ./",
 		"pretest": "yarn run compile && yarn run lint",
 		"test": "node ./out/test/runTest.js",
-		"deploy": "vsce publish --yarn --pat $VSCE_PAT"
+		"deploy": "vsce publish --yarn --pat $VSCE_PAT",
+		"package": "vsce package --yarn"
 	},
 	"devDependencies": {
 		"@types/glob": "^7.1.3",
