@@ -14,3 +14,7 @@
 ### 0.0.10
 
 - Adding new activation events to improve extension loading and handling of updates
+
+### 0.0.11
+
+- Adding keyboard shortcut to tab into notifications when visible

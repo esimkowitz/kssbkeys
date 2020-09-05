@@ -2,7 +2,7 @@
 	"name": "kssbkeys",
 	"displayName": "KSSB Keys",
 	"description": "Improving the VSCode experience for users with screen readers.",
-	"version": "0.0.10",
+	"version": "0.0.11",
 	"publisher": "esimkowitz",
 	"license": "MIT",
 	"author": {
