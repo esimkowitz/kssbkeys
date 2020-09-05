@@ -22,3 +22,6 @@ jobs:
       uses: GabrielBB/xvfb-action@v1.2
       with:
         run: npm test
+    - name: Package
+      if: success() && contains( github.base_ref, 'releases') && matrix.os == 'ubuntu-latest'
+      run: npm run package
