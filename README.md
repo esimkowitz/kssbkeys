@@ -11,3 +11,4 @@ The current release provides the following keyboard shortcuts to enhance the VS 
 - Create a new file from the Explorer pane using `Ctrl + N`
 - Create a new folder from the Explorer pane using `Ctrl + Shift + N`
 - Focus to the current visible notification using `Tab`
+- Dismiss notifications that are currently displayed using `Escape`. This is already the current behavior but the feedback is only visual. Also since we're adding a new action when notifications are visible, this ensures the least confusion.
