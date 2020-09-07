@@ -2,7 +2,7 @@
 	"name": "kssbkeys",
 	"displayName": "KSSB Keys",
 	"description": "Improving the VSCode experience for users with screen readers.",
-	"version": "0.0.11",
+	"version": "0.0.12",
 	"publisher": "esimkowitz",
 	"license": "MIT",
 	"author": {
@@ -34,7 +34,8 @@
 	"activationEvents": [
 		"onStartupFinished",
 		"onView:explorer",
-		"onCommand:kssbkeys.explorerNewFolder"
+		"onCommand:kssbkeys.explorerNewFolder",
+		"onCommand:kssbkeys.dismissNotification"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
@@ -42,6 +43,10 @@
 			{
 				"command": "kssbkeys.explorerNewFolder",
 				"title": "KSSB Keys: New Folder"
+			},
+			{
+				"command": "kssbkeys.dismissNotification",
+				"title": "KSSB Keys: Dismiss Notification"
 			}
 		],
 		"keybindings": [
@@ -65,8 +70,27 @@
 				"linux": "tab",
 				"command": "notifications.focusToasts",
 				"when": "notificationToastsVisible && !notificationFocus"
+			},
+			{
+				"mac": "escape",
+				"win": "escape",
+				"linux": "escape",
+				"command": "kssbkeys.dismissNotification",
+				"when": "notificationToastsVisible"
 			}
-		]
+		],
+		"menus": {
+			"commandPalette": [
+				{
+					"command": "kssbkeys.explorerNewFolder",
+					"when": "false"
+				},
+				{
+					"command": "kssbkeys.dismissNotification",
+					"when": "false"
+				}
+			]
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "yarn run compile",
