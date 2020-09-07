@@ -6,4 +6,8 @@ This extension has been developed to provide useful commands and keyboard shortc
 
 ## Features
 
-Currently, this extension only provides two enhancements: a keyboard shortcut to create a new folder from the Explorer pane and a keyboard shortcut to create a new file from the Explorer pane.
+The current release provides the following keyboard shortcuts to enhance the VS Code experience (assumes a Windows keyboard; substitute `Cmd` for `Ctrl` if using a Mac):
+
+- Create a new file from the Explorer pane using `Ctrl + N`
+- Create a new folder from the Explorer pane using `Ctrl + Shift + N`
+- Focus to the current visible notification using `Tab`
